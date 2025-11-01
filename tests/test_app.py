@@ -1,6 +1,5 @@
 from typing import Dict, Any
 from fastapi.testclient import TestClient
-import app as app_module
 
 
 def test_root_redirect(client: TestClient):
